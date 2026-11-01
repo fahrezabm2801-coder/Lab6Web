@@ -117,5 +117,5 @@ Dokumentasi berikut digunakan untuk menunjukkan hasil pengerjaan latihan dan min
 
 ### B. Hasil Mini Project
 
-![imge alt](https://github.com/fahrezabm2801-coder/Lab6Web/blob/d89e4b83fdc6d5bd1f56cb5719ec84f16f7d8df6/mini%20project.png)
+![imge alt](https://github.com/fahrezabm2801-coder/Lab6Web/blob/e5d61642561a07116814afe4b20b49ee1ab2824c/mini%20project%20(2).png)
 
