@@ -96,8 +96,23 @@ Dokumentasi berikut digunakan untuk menunjukkan hasil pengerjaan latihan dan min
 
 ### Dokumentasi 
 
-### Mengubah teks dengan DOM  
+### 1. Mengubah teks dengan DOM  
 ![imge alt](https://github.com/fahrezabm2801-coder/Lab6Web/blob/3bdce2b54e669bb36f69ffcc7d4531e9f2da4b1e/Latihan%20DOM.png) 
+
+### 2. Praktikum DOM dan Event
+![imge alt](https://github.com/fahrezabm2801-coder/Lab6Web/blob/3bdce2b54e669bb36f69ffcc7d4531e9f2da4b1e/Praktikum%20DOM%20dan%20Event.png) 
+
+### 3. Mengubah Kelas CSS 
+![imge alt](https://github.com/fahrezabm2801-coder/Lab6Web/blob/3bdce2b54e669bb36f69ffcc7d4531e9f2da4b1e/Latihan%20Mengubah%20Kelas%20CSS.png) 
+
+### 4. Event input dan penghitung karakter
+![imge alt](https://github.com/fahrezabm2801-coder/Lab6Web/blob/3bdce2b54e669bb36f69ffcc7d4531e9f2da4b1e/Event%20input%20dan%20penghitung%20karakter.png) 
+
+### 5. Validasi Form Pendaftaran
+![imge alt](https://github.com/fahrezabm2801-coder/Lab6Web/blob/3bdce2b54e669bb36f69ffcc7d4531e9f2da4b1e/form%20pendaftaran%20(2).png) 
+
+### 6. 	Aplikasi To-do List
+![imge alt](https://github.com/fahrezabm2801-coder/Lab6Web/blob/3bdce2b54e669bb36f69ffcc7d4531e9f2da4b1e/Daftar%20tugas%20sederhana.png) 
 
 
 ### B. Hasil Mini Project
