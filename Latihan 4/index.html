@@ -1,0 +1,26 @@
+<!-- Nama         : Fahreza Bintang Mehesa -->
+<!-- NIM          : 312110220 -->
+<!-- Kelas        : I253A -->
+<!-- Mata Kuliah  : Pemrograman Web -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event input dan penghitung karakter</title>
+</head>
+<body>
+  <label for="namaInput">Nama:</label>
+  <input type="text" id="namaInput" maxlength="40">
+  <p>Jumlah karakter: <span id="jumlahKarakter">0</span></p>
+
+  <script>
+  const namaInput = document.getElementById("namaInput");
+  const jumlahKarakter = document.getElementById("jumlahKarakter");
+  namaInput.addEventListener("input", function () {
+  jumlahKarakter.textContent = namaInput.value.length;
+  });
+  </script>
+</body>
+</html>

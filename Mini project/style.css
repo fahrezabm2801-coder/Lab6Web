@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    padding: 30px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container > p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #64748b;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+}
+
+#jumlahKarakter {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #64748b;
+}
+
+.tombol {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    flex: 1;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #2563eb;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: #64748b;
+    color: white;
+}
+
+#pesan {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.ringkasan {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #f8fafc;
+    border-radius: 5px;
+}
+
+.ringkasan h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.ringkasan p {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+}

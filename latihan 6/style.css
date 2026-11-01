@@ -1,0 +1,12 @@
+li {
+  margin-bottom: 8px;
+}
+
+li button {
+  margin-left: 8px;
+}
+
+.selesai span {
+  text-decoration: line-through;
+  color: #687386;
+}

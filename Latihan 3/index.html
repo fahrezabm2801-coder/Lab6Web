@@ -1,0 +1,36 @@
+<!-- Nama         : Fahreza Bintang Mehesa -->
+<!-- NIM          : 312110220 -->
+<!-- Kelas        : I253A -->
+<!-- Mata Kuliah  : Pemrograman Web -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan 3</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Latihan Mengubah Kelas CSS</h1>
+
+    <p id="teksGaya">
+        Ini adalah paragraf percobaan.
+    </p>
+
+    <button id="tombolGaya">
+        Ubah Tampilan
+    </button>
+
+    <script>
+      const tombolGaya = document.getElementById("tombolGaya");
+      const teksGaya = document.getElementById("teksGaya");
+      tombolGaya.addEventListener("click", function () {
+        teksGaya.classList.toggle("highlight");
+        teksGaya.classList.toggle("teks-besar");
+      });
+    </script>
+</body>
+</html>
+
+ 

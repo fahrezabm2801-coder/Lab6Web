@@ -1,0 +1,57 @@
+<!-- Nama         : Fahreza Bintang Mehesa -->
+<!-- NIM          : 312110220 -->
+<!-- Kelas        : I253A -->
+<!-- Mata Kuliah  : Pemrograman Web -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+ <form id="formPendaftaran" novalidate>
+  <label for="nama">Nama lengkap</label>
+  <input id="nama" name="nama" type="text">
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email">
+  <label for="usia">Usia</label>
+  <input id="usia" name="usia" type="number" min="17" max="100">
+  <button type="submit">Daftar</button>
+</form>
+<p id="pesanForm" aria-live="polite"></p>
+
+
+  <script>
+  const form = document.getElementById("formPendaftaran");
+  const nama = document.getElementById("nama");
+  const email = document.getElementById("email");
+  const usia = document.getElementById("usia");
+  const pesan = document.getElementById("pesanForm");
+
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        if (nama.value.trim() === "") {
+            pesan.textContent = "Nama lengkap wajib diisi!";
+        } 
+        else if (email.value.trim() === "") {
+            pesan.textContent = "Email wajib diisi!";
+        } 
+        else if (!email.validity.valid) {
+            pesan.textContent = "Format email tidak valid!";
+        } 
+        else if (usia.value === "") {
+            pesan.textContent = "Usia wajib diisi!";
+        } 
+        else if (Number(usia.value) < 17 || Number(usia.value) > 100) {
+            pesan.textContent = "Usia harus antara 17 sampai 100 tahun!";
+        } 
+        else {
+            pesan.textContent = "Pendaftaran berhasil!";
+        }
+    });
+  </script>
+</body>
+</html>
