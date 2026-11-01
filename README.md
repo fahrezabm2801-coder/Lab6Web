@@ -96,7 +96,7 @@ Dokumentasi berikut digunakan untuk menunjukkan hasil pengerjaan latihan dan min
 
 | No. | Dokumentasi |
 |---|---|
-| 1 | Mengubah teks dengan DOM | ![imge alt](https://github.com/fahrezabm2801-coder/Lab6Web/blob/3bdce2b54e669bb36f69ffcc7d4531e9f2da4b1e/Latihan%20DOM.png)
+| 1 | Mengubah teks dengan DOM | ![imge alt](https://github.com/fahrezabm2801-coder/Lab6Web/blob/3bdce2b54e669bb36f69ffcc7d4531e9f2da4b1e/Latihan%20DOM.png) |
 | 2 | Event Click |
 | 3 | Mengubah class CSS |
 | 4 | Event Input dan Penghitung Karakter |
